@@ -16,7 +16,7 @@ Once all files are in place, tokens should be created for use.
     load_authentication_token_card := True
     ```
   - this will trigger a card to load in interactive mode
-  - both the token and description field are required, but can be any string desired
+  - the token input will be pre filled with a random string, but can be changed if desired
   - <strong>NOTE</strong> we recommend using a random string consisting of upper and lower case letters and numbers for tokens. This will help increase security and make it harder for attackers to gain access to your views.
 
 <h4>Usage</h4>
