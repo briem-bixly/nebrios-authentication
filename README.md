@@ -38,7 +38,7 @@ Once all files are in place, login pairs can be created for use.
   - in debug mode set load_authentication_basic_card to true and run
   
     ```
-    load_authentication_token_card := True
+    load_authentication_basic_card := True
     ```
   - this will trigger a card to load in interactive mode
   - once a username/password combination has been saved, users can start accessing your views!
