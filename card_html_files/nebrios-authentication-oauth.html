@@ -1,0 +1,11 @@
+<polymer-element name="nebrios-authentication-oauth" extends="nebrios-form" target="nebrios_authentication.update_oauth">
+    <template>
+        <h2>OAuth 1.0 Key/Secret Pair</h2>
+        <nebrios-string id="consumer_key" label="Consumer Key" disabled="true"></nebrios-string>
+        <nebrios-string id="consumer_secret" label="Consumer Secret" disabled="true"></nebrios-string>
+        <nebrios-string id="scope" label="Scope (optional)"></nebrios-string>
+    </template>
+    <script>
+        Polymer("nebrios-authentication-oauth", {});
+    </script>
+</polymer-element>
